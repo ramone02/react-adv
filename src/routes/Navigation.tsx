@@ -24,7 +24,6 @@ export const Navigation = () => {
             <ul>
               {routes.map((route) => (
                 <li key={route.to}>
-                  {" "}
                   {/* //isActive valor booleano */}
                   <NavLink
                     to={route.to}
